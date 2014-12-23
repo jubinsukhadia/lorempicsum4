@@ -11,7 +11,9 @@
 		"intervention/image": "2.*",
 		"intervention/imagecache": "dev-master",
 		"zizaco/confide": "~4.0@dev",
-		"zizaco/entrust": "1.2.*@dev"
+		"zizaco/entrust": "1.2.*@dev",
+		"fzaninotto/faker": "1.4.*@dev",
+		"sirsquall/buzz": "v0.12"
 	},
 	"require-dev": {
 	  "way/generators": "2.*"
@@ -31,11 +33,16 @@
 			"php artisan clear-compiled",
 			"php artisan config:publish barryvdh/laravel-debugbar",
 			"php artisan config:publish intervention/image",
+			"php artisan config:publish sirsquall/buzz",
 			"composer dump-autoload",
 			"php artisan optimize"
 		],
 		"post-update-cmd": [
 			"php artisan clear-compiled",
+			"php artisan config:publish barryvdh/laravel-debugbar",
+			"php artisan config:publish intervention/image",
+			"php artisan config:publish sirsquall/buzz",
+			"composer dump-autoload",
 			"php artisan optimize"
 		],
 		"post-create-project-cmd": [

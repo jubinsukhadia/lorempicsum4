@@ -126,6 +126,7 @@
 			'Intervention\Image\ImageServiceProvider',
 			'Zizaco\Confide\ServiceProvider',
 			'Zizaco\Entrust\EntrustServiceProvider',
+			'Buzz\BuzzServiceProvider',
 
 		),
 
@@ -197,6 +198,7 @@
 			'Image'             => 'Intervention\Image\Facades\Image',
 			'Confide'           => 'Zizaco\Confide\Facade',
 			'Entrust'           => 'Zizaco\Entrust\EntrustFacade',
+			'Buzz'              => 'Buzz\Buzz',
 
 		),
 
