@@ -45,7 +45,7 @@ class ImageDownloadCommand extends Command {
 
 		/* temp */
 		$downloaded = array();
-		$pictures = Picture::where('id','>','1188')->get();
+		$pictures = Picture::where('id','>','2117')->get();
 		/* temp End*/
 
 		$logFile = 'log-picturesDownloaded.txt';

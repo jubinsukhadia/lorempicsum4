@@ -13,10 +13,15 @@
 		"zizaco/confide": "~4.0@dev",
 		"zizaco/entrust": "1.2.*@dev",
 		"fzaninotto/faker": "1.4.*@dev",
-		"sirsquall/buzz": "v0.12"
+		"sirsquall/buzz": "v0.12",
+		"artdarek/oauth-4-laravel": "dev-master",
+		"laracasts/commander": "~1.0",
+		"laracasts/utilities": "~1.0"
 	},
 	"require-dev": {
-	  "way/generators": "2.*"
+	  "way/generators": "2.*",
+	  "codeception/codeception": "~2.0",
+	  "laracasts/testdummy": "~2.0"
 	},
 	"autoload": {
 		"classmap": [
@@ -34,6 +39,7 @@
 			"php artisan config:publish barryvdh/laravel-debugbar",
 			"php artisan config:publish intervention/image",
 			"php artisan config:publish sirsquall/buzz",
+			"php artisan config:publish artdarek/oauth-4-laravel",
 			"composer dump-autoload",
 			"php artisan optimize"
 		],
@@ -42,6 +48,7 @@
 			"php artisan config:publish barryvdh/laravel-debugbar",
 			"php artisan config:publish intervention/image",
 			"php artisan config:publish sirsquall/buzz",
+			"php artisan config:publish artdarek/oauth-4-laravel",
 			"composer dump-autoload",
 			"php artisan optimize"
 		],

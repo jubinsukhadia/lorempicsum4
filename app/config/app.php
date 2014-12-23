@@ -127,6 +127,9 @@
 			'Zizaco\Confide\ServiceProvider',
 			'Zizaco\Entrust\EntrustServiceProvider',
 			'Buzz\BuzzServiceProvider',
+			'Artdarek\OAuth\OAuthServiceProvider',
+			'Laracasts\Commander\CommanderServiceProvider',
+			'Laracasts\Utilities\UtilitiesServiceProvider',
 
 		),
 
@@ -199,6 +202,7 @@
 			'Confide'           => 'Zizaco\Confide\Facade',
 			'Entrust'           => 'Zizaco\Entrust\EntrustFacade',
 			'Buzz'              => 'Buzz\Buzz',
+			'OAuth'             => 'Artdarek\OAuth\Facade\OAuth',
 
 		),
 
